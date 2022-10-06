@@ -9,13 +9,15 @@
 .features__items {
   width: 270px;
 }
-.features-list .features__text {
-  font-size: 14px;
-  line-height: 1.7;
-}
+
 .features-list {
   display: flex;
   gap: 30px;
+
+  & .features-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 .features__subtitle {
   padding-bottom: 10px;

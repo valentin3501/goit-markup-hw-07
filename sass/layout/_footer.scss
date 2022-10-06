@@ -24,10 +24,12 @@
   font-size: 14px;
   line-height: 1.7;
   font-weight: 400;
+
+  & .data {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
-.contact-list .data {
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .mail {
   padding-bottom: 9px;
 }

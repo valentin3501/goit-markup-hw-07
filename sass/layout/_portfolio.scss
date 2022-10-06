@@ -76,11 +76,11 @@
   .section-list-item:hover & {
     transform: translateY(0);
   }
-}
 
-.overlay .overlay-text {
-  line-height: 1.55;
-  color: var(--hero-title-color);
-  font-size: 18px;
-  padding: 63px 24px;
+  & .overlay-text {
+    line-height: 1.55;
+    color: var(--hero-title-color);
+    font-size: 18px;
+    padding: 63px 24px;
+  }
 }
